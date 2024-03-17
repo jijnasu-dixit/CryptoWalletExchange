@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./src/assets/xrpl.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple XRPL Wallet</title>
+  <link rel="preload" href="./src/send-xrp/send-xrp.html">
+  <link rel="preload" href="./src/transaction-history/transaction-history.html">
+  <link rel="preload" href="index.css" as="style">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="main_content">
+      <div class="main_logo" id="heading_logo"></div>
+      <div class="links">
+        <button class="send_xrp" id="send_xrp_button">Send XRP</button>
+        <button class="transaction_history" id="transaction_history_button">Transaction History</button>
+      </div>
+      <div class="wallet_details" id="wallet">
+        <div class="heading_h3">Account Info:</div>
+        <div id="loading_wallet_details">Loading Wallet Details...</div>
+        <span class="wallet_address"></span>
+        <span class="wallet_balance"></span>
+        <span class="wallet_reserve"></span>
+        <span class="wallet_xaddress"></span>
+        <span class="view_more"><a id="view_more_button">View More</a></span>
+      </div>
+      <div class="ledger_details">
+        <div class="heading_h3">Latest Validated Ledger:</div>
+        <div id="loading_ledger_details">Loading Ledger Details...</div>
+        <span class="ledger_index" id="ledger_index"></span>
+        <span class="ledger_hash" id="ledger_hash"></span>
+        <span class="close_time" id="close_time"></span>
+      </div>
+      <!-- Team Section -->
+      <div class="team-section">
+        <h2>Meet Our Team</h2>
+        <div class="team-member">
+          <img src="WhatsApp Image 2024-03-17 at 22.13.40_6cf126fd.jpg" alt="Member 1">
+          <h3>Yashvi</h3>
+          <p>UID : 22BIS70018</p>
+        </div>
+        <div class="team-member">
+          <img src="WhatsApp Image 2024-03-17 at 22.02.01_749623ae.jpg" alt="Member 2">
+          <h3>Harshit Kamboj</h3>
+          <p>UID : 22BIS70092</p>
+        </div>
+        <div class="team-member">
+          <img src="WhatsApp Image 2024-03-17 at 22.13.40_30fc29fa.jpg" alt="Member 3">
+          <h3>Khushal Choudhary</h3>
+          <p>UID : 22BIS70056</p>
+        </div>
+        <div class="team-member">
+          <img src="WhatsApp Image 2024-03-17 at 21.49.12_4de4301f.jpg" alt="Member 4">
+          <h3>Jijnasu Dixit</h3>
+          <p>UID : 22BIS70086</p>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
+
+</div>
+</div>
+<script type="module" src="/index.js"></script>
+</body>
+
+</html>
